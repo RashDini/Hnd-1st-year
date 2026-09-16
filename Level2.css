@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+}
+
+.background{
+    background-image: url(images/background.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat-x;
+
+}
+.boy{
+    position: absolute;
+    margin-top: 347px;
+    height: 210px;
+}
+.ss{
+    background-color: transparent;
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    margin-top: 35px;
+    font-size: 50px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: default;
+}
+
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 35px;
+    position: absolute; 
+}
+/*
+.profile-button-container{
+    position: fixed;
+    display: block;
+}
+
+#profile-button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-top: 45px;
+    margin-left: 1010px;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.profile-avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;    
+}
+.profile-dropdown{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.profile-dropdown h3{
+    margin-top: 0;
+}
+.profile-dropdown p{
+    margin: 8px 0;
+}*/
+
+/*Fire Flame*/
+.block{
+    position: absolute;
+    background-image: url(images/flame.gif);
+    background-size: cover;
+    width: 140px;
+    height: 270px;
+    margin-top: 358px;
+}
+
+/*Stone*/
+.block1{
+    position: absolute;
+    background-image: url(images/Stone.png);
+    background-size: cover;
+    width: 90px;
+    height: 50px;
+    margin-top: 500px;
+}
+
+#end{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: linear-gradient(90deg,#8E0E00 0%,#1F1C18 100%);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    font-family: "Broadway";
+    visibility: hidden;
+
+}
+
+#win{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(243, 9, 9, 0.8);
+    color: white;
+    padding: 70px;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+
+.btn{
+    height: 35px;
+    width: 300px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 1000;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    height: 37px;
+    width: 305px;
+    background-color: rgb(0, 233, 233);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+
+
